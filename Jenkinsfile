@@ -6,7 +6,7 @@ pipeline {
       steps {
         git branch: 'main',
             credentialsId: 'github-token',
-            url: 'https://github.com/jiveshanand/ci-cd-pipeline-setup.git'
+            url: 'https://github.com/nti-a/myfirstup.git'
       }
     }
 
